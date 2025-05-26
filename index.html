@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Jalur Hijau - Warta Cerdas untuk Semua</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e88e5;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1565c0;
+            padding: 0.8rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .main-content {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .headline-article {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .headline-article img {
+            width: 100%;
+            border-radius: 6px;
+            margin-top: 1rem;
+        }
+
+        .headline-article h2 {
+            margin-top: 0;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            background-color: #ef6c00;
+            color: white;
+            font-size: 0.85rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .article-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .article-card img {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Berita Jalur Hijau</h1>
+        <p>Warta Cerdas untuk Semua Generasi</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Nasional</a></li>
+            <li><a href="#">Gaya Hidup</a></li>
+            <li><a href="#">Bisnis</a></li>
+            <li><a href="#">Teknologi</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <section class="headline-article">
+            <span class="badge">Teknologi</span>
+            <h2>Startup Lokal Ciptakan AI yang Bisa Prediksi Cuaca Kampung</h2>
+            <p><strong>Bandung</strong> - Sebuah startup lokal berbasis di Bandung berhasil mengembangkan teknologi AI yang mampu memprediksi cuaca mikro di wilayah pedesaan. Inovasi ini memungkinkan petani untuk menyesuaikan jadwal tanam secara lebih akurat.</p>
+            <img src="https://picsum.photos/seed/ai/1200/400" alt="Ilustrasi teknologi AI">
+        </section>
+
+        <div class="articles-grid">
+            <div class="article-card">
+                <img src="https://picsum.photos/seed/politik/300/200" alt="Berita Politik">
+                <span class="badge">Politik</span>
+                <h3>Rancangan Undang-Undang Baru Siap Disahkan</h3>
+                <p>DPR bersiap mengesahkan RUU yang akan mengatur pemanfaatan data digital secara nasional.</p>
+            </div>
+            <div class="article-card">
+                <img src="https://picsum.photos/seed/sport/301/200" alt="Berita Olahraga">
+                <span class="badge">Olahraga</span>
+                <h3>Atlet Indonesia Rebut Medali Emas di Asian Games</h3>
+                <p>Prestasi gemilang diraih atlet muda Indonesia di cabang atletik estafet 4x400 meter.</p>
+            </div>
+            <div class="article-card">
+                <img src="https://picsum.photos/seed/bisnis/302/200" alt="Berita Bisnis">
+                <span class="badge">Bisnis</span>
+                <h3>UMKM Lokal Raup Omzet Miliaran Lewat E-commerce</h3>
+                <p>Perdagangan digital bantu pelaku UMKM tembus pasar luar negeri dan tingkatkan ekspor.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Berita Jalur Hijau - Warta Cerdas untuk Semua</p>
+        <p>Kontak Redaksi: redaksi@beritajalurhijau.com</p>
+    </footer>
+</body>
+</html>
